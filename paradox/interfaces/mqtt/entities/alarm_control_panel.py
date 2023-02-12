@@ -11,7 +11,7 @@ class AlarmControlPanel(AbstractControllableEntity):
         self.label = partition["label"]
         self.property = "current_state"
 
-        self.hass_entity_type = "alarm_control_panel"
+        self.hass_entity_type = "alarm_control_panel_vr"
         self.pai_entity_type = "partition"
 
         self.code = code
