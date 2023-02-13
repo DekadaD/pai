@@ -12,6 +12,7 @@ class AlarmControlPanel(AbstractControllableEntity):
         self.property = "current_state"
 
         self.hass_entity_type = "alarm_control_panel_vr"
+        twat
         self.pai_entity_type = "partition"
 
         self.code = code
